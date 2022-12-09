@@ -1,0 +1,156 @@
+.html{
+    width: 1440px;
+}
+
+.header{
+    border-bottom: 1px solid #EFEEF3;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.header-logo{
+    display: flex;
+    width: 1170px;
+    margin:0 auto;
+}
+
+h1{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: #16133D;
+}
+
+h2{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    padding: 15px 0px 40px 0px;
+}
+h2::before{
+    content:"OUR SERVICES";
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+}
+
+.link a{
+    padding-left: 40px;
+    margin-bottom: 40px;
+    padding-top:30px ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3DB370;
+    text-decoration: none;
+
+}
+
+.img{
+    padding: 40px 0 30px 40px;
+    width: 64px;
+    height: 64px;
+}
+
+.main{
+    width: 1170px;
+    margin:0 auto;
+    padding:100px ;
+}
+.footer{
+    width: 1440px;
+    margin: 0 auto;
+    height: 193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #16133D;
+}
+.flex{
+    display: flex;
+    gap: 30px;
+}
+h3{
+    padding-left: 40px;
+    padding-bottom: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+}
+
+
+p{
+    padding-left: 40px;
+    padding-right: 55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #16133D;
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 340px;
+    /* justify-content: space-around; */
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+    box-sizing: content-box;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.icon:hover{
+    fill: aqua;
+}
+.footer-link{
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.footer-link a{
+    width: 38px;
+    height: 38px;
+    background:white;
+    border-radius: 5px;
+}
+
+h4{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    color: white;
+}
+
+.footer-logo{
+    display: flex;
+    width: 1170px;
+    margin:0 auto;
+}
