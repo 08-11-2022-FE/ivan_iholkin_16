@@ -74,8 +74,8 @@ h2::before{
      border-radius: 16px;
 }
 
-.flex-item:hover svg{
-    filter: invert(50);
+.flex-item:hover .housered{
+    fill:  #52C29D;;
 }
 
 
